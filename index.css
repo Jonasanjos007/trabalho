@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@700&family=Josefin+Sans:ital,wght@1,400;1,700&family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+
+body {
+margin: 0%;
+padding: 0%;
+background-image: url("img/papel\ de\ fundo.jpg");
+
+}
+
+.cabecalho{width: 100%;
+   background: brown;
+  margin: 0%;
+ align-items: center;
+ display: flex;
+}
+.img__logo{
+   margin: 1%;
+}
+
+.titulo{ 
+    font-family:'krona one';
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+}
+.butao__fale__conosco{
+ margin: 0 0 0 15%;
+ border:solid 1px  black;
+ text-decoration: none;
+ color: black;
+ border-radius: 10px;
+ font-size: 2rem;
+ font-family: 'krona one';
+ padding: 10px;
+}
+.relogio {
+    display: flex;
+    align-items: center;
+   margin: 0 0 0 15%;
+   font-size: 2.5em;
+   font-family: 'krona one';
+}
+.meio{
+   margin: 2rem;
+   background-color:transparent;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.meio__descricao{
+   padding: 60px 0 0 50px;
+   background-color: brown;
+   color: black;
+   width: 100% 0 0 0;
+ gap: 10px;
+   font-family: 'krona one';
+   border-radius: 0 20px 20px 0;
+   margin: 1rem 0 0 0;
+
+}
+.meio__pizza{
+  border-radius: 20px 20px 0 20px;
+  width: 50%;
+  height: 100%;
+  
+}
+.meio__texto{
+   font-size: 1rem;
+   padding: 15px 0 40px 0;
+   font-family: 'krona one';
+   font-weight: 800;
+
+}
+.img__da__pizza{
+width: 100%;
+}
+
+.butao__meio{
+   background-color: yellow;
+   width: 35%;
+   padding: 10px 15px;
+   border-radius: 40px;
+   color: black;
+   font-size: 0.9rem;
+}
+.botao{
+   text-decoration: none;
+   color: black;
+   font-weight: 800;
+}
+.botao:hover{
+   background-color: black;
+   color: aliceblue;
+   padding: 10px 9px;
+    border-radius: 15px;
+}
+.meio2{   margin: 2rem;
+   background-color:transparent;
+   display: flex;
+   justify-content: space-between;
+
+}
+.meio__pizza2{
+   border-radius: 20px 20px 0 20px;
+   width: 50%;
+   height: 100%;
+}
+.meio__descricao2{
+   padding: 60px 0 0 50px;
+   background-color: brown;
+   color: black;
+   width: 100% 0 0 0;
+ gap: 10px;
+   font-family: 'krona one';
+   border-radius: 0 20px 20px 0;
+   margin: 1rem 0 0 0;}
+   .meio__texto2{
+      font-size: 1rem;
+      padding: 15px 0 40px 0;
+      font-family: 'krona one';
+      font-weight: 800;
+      
+   }
+   .butao__meio2{
+      background-color: yellow;
+      width: 50%;
+      padding: 10px 15px;
+      border-radius: 40px;
+      color: black;}
+      .botao2:hover{
+         background-color: black;
+         color: aliceblue;
+         padding: 10px 19px;
+          border-radius: 15px;
+      }
+      .botao2{
+         text-decoration: none;
+         color: black;
+         font-weight: 800;}
+         .botao3:hover{
+            background-color: black;
+            color: aliceblue;
+            padding: 10px 6px;
+             border-radius: 15px;
+         }
+         .butao__meio3{
+            background-color: yellow;
+            width: 28%;
+            padding: 10px 15px;
+            border-radius: 40px;
+            color: black;}
+         .terciario__meio{
+            background-color: rgb(103, 78, 78);
+             color: aliceblue;
+             display: flex;
+         }
+         .texto__terciario{
+            text-align: center;
+            font-size: 2rem;
+            color: rgb(255, 0, 0);
+         }
+         .paragrafo__terciario{
+            font-size: 1.1rem;
+            margin: 0 20px 40px 20px;
+            color: rgb(25, 33, 45);
+         }
+         .botao__terceario{
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: 700;
+         }
+         .botao__terceario:hover{
+            background-color: black;
+            color: aliceblue;
+            padding: 10px 6px;
+             border-radius: 15px;
+         }
+         .botao__terceario2{
+            margin: 100px 0 0 100px;
+         }
+         .propaganda__meio{
+            background-image: url("img/papel\ de\ parede.jpg");
+        
+          
+         }
+         .titulo__propaganda{
+            margin: 100px 0 0 10px;
+            color: rgb(251, 0, 0);
+         }
+         .paragrafo__terciario__meio{
+            color: rgb(65, 21, 21);
+            font-size: 1.5rem;
+            margin: 20px 0 40px 10px;
+         }
+         .propaganda__meio{
+            display: flex;
+         }
+         .pizza_d_queijo{
+            margin: 30px;
+         }
+         .botao__propaganda{
+            text-decoration: none;
+           background-color: rgb(65, 31, 30);
+           color: rgb(203, 141, 141);
+           font-weight: 700;
+           padding: 10px;
+           border-radius: 15px;
+           margin: 0 70px 0 0;
+         }
+         .botao__propaganda:hover{
+            background-color: rgb(255, 0, 0);
+            color: rgb(0, 0, 0);
+            padding: 10px 6px;
+             border-radius: 15px;
+         }
+         .footer__propaganda{
+            display: flex;
+            background-color: rgb(65, 31, 30);
+            
+         }
+         .titulo__footer{
+            margin: 50px 100px 50px 70px;
+          width: 40%;
+          font-size: 1rem;
+          font-weight: 700;
+         }
+         .logo__footer{
+            margin: 80px;
+         }
+         .paragrafo__footer{
+            display: flex;
+            flex-direction: column;
+            font-weight: 700;
+         }
+         .localizacao{
+            text-decoration: none;
+            background-color: rgb(93, 72, 71);
+            color: rgb(203, 141, 141);
+            font-weight: 700;
+            padding: 10px;
+            border-radius: 15px;
+         }
+         .localizacao:hover{
+            background-color: rgb(255, 0, 0);
+            color: rgb(0, 0, 0);
+            padding: 10px 6px;
+             border-radius: 15px;
+         }
+         .titulo__only2{
+            margin: 68px 70px 30px 0px;
+            width: 15%;
+         }
+         .informacoes__footer{
+            margin: 60px 0 0 100px;
+         }
+         .telefone{
+            width: 4%;
+         margin: 25px 0 0 0;
+         
+         }
+         .b{
+            margin: 25px 0 0 0;
+         }
+         .link{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5rem;
+         }

@@ -1,0 +1,186 @@
+body{
+    background-color:  rgb(93, 72, 71);;
+}
+.img__only{
+    margin: 2% 0 2% 3%;
+}
+.titulo{
+    margin: 3% 0 0 0%;
+}
+.escolha{
+   color: rgb(0, 0, 0);
+    margin: 3% 5% 0 0%;
+}
+.cor{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.listas{
+    display: flex;
+}
+.produto{
+    display: flex;
+}
+.descricao{
+  
+    text-align: center;
+}
+.foto__da__pizza{
+    width: 30%;
+    height: 30%;
+}
+.inicio{
+  text-decoration: none;
+  background-color: red;
+  color: black;
+  padding: 15px;
+  border-radius:100% ;
+}
+.foto__da__pizza2{
+    width: 30%;
+}
+.opcoes{
+    display: flex;
+    justify-content: space-between;
+}
+.opcoes1{
+    margin: 2% 0 2% 10%;
+}
+.opcoes2{
+    margin: 2% 0 2% 0;
+}
+.opcoes3{
+    margin: 2% 10% 2% 0;
+}
+.lista__cardapio{
+    display: flex;
+    justify-content: space-between;
+}
+.produto{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo__refri{
+    text-align:center ;
+    border: solid black;
+    background-color: aqua;
+}
+.bebidas__meio{
+    display: flex;
+    justify-content: space-between;
+}
+.foto__da__pizza3{
+    width: 33%;
+}
+.marmita__meio2{
+    display: flex;
+    justify-content: space-between;
+}
+.foto__da__pizza4{
+    width: 41.5%;
+}
+.opcoes__pizza{
+    text-decoration: none;
+    background-color: black;
+    color: red;
+    padding: 15%;
+    border-radius: 10px;
+}
+.opcoes__pizza:hover{
+    text-decoration: none;
+    background-color: rgb(176, 98, 98);
+    color: rgb(9, 43, 82);
+    padding: 15%;
+    border-radius: 10px;
+}
+.foto__da__pizza5{
+    width: 27%;
+}
+.opcoes2{
+    margin: 2% 15% 0 0;
+}
+.footer__propaganda{
+    display: flex;
+    background-color: rgb(65, 31, 30);
+    
+ }
+ .titulo__footer{
+    margin: 50px 100px 50px 70px;
+  width: 40%;
+  font-size: 1rem;
+  font-weight: 700;
+ }
+ .logo__footer{
+    margin: 80px;
+ }
+ .paragrafo__footer{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+ }
+ .localizacao{
+    text-decoration: none;
+    background-color: rgb(93, 72, 71);
+    color: rgb(203, 141, 141);
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 15px;
+ }
+ .localizacao:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 6px;
+     border-radius: 15px;
+ }
+ .titulo__only2{
+    margin: 68px 70px 30px 0px;
+    width: 15%;
+ }
+ .informacoes__footer{
+    margin: 60px 0 0 100px;
+ }
+ .telefone{
+    width: 4%;
+ margin: 25px 0 0 0;
+ 
+ }
+ .b{
+    margin: 25px 0 0 0;
+ }
+ .link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+ }
+
+.botao__confirma{
+    text-align: center;
+    background-color: black;
+   
+}
+
+.botao__fotmulario{
+    border: solid 1px red;
+    background-color: red;
+    padding: 0.5%;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+.botao__fotmulario:hover{
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+}
+.botao__voltar{
+    display: flex;
+    justify-content: space-between;
+}
+.voutar{
+    margin: 2% 10%;
+}
+.voutar2{
+    margin: 2% 10%;
+}

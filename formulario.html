@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>SEU PEDIDO</title>
+</head>
+<body>
+         <section>
+              <div class="box">
+        <form action="jonas">
+            <fieldset>
+                <legend><b> ANOTE SEU PEDIDO</b></legend>
+            <br>
+            <div class="inputbox">
+                <input type="text" name = "nome" id = "nome" class="inputUser" required>
+                <label for="nome" class="pizzaria">Nome Completo</label>
+            </div>
+            <br>
+            <div class="inputbox">
+                <input type="text" name = "pedido" id = "pedido" class="inputUser" required>
+                <label for="pedido" class="pizzaria">Qual e seu pedido</label>
+            </div>
+            <br>
+            <div class="inputbox">
+                <input type="tel" name = "telefone" id = "telefone" class="inputUser" required>
+                <label for="telefone" class="pizzaria">Telefone</label>
+            </div>
+            <br>
+            <p>Tamanho:</p>
+            <input type = "radio" id="P" name = "genero" value="P" required>
+            <Label for="P">(P)</Label>
+            <input type = "radio" id="M" name = "genero" value="M" required>
+            <Label for="M">(M)</Label>
+            <input type = "radio" id="H" name = "genero" value="G" required>
+            <Label for="G">(G)</Label>
+            <br>
+            <br>
+            <div class="inputbox">
+                <label for="observacao"> <b> Observacao:</b></label>
+                <input type="text" name = "observacao" id = "observacao" class="inputUser" required>
+            </div>
+            <br>
+            <p> ENDEREÇO</p>
+            <br>
+            <div class="inputbox">
+                <input type="text" name = "cidade" id = "cidade" class="inputUser" required>
+                <label for="cidade" class="pizzaria">Cidade</label>
+            </div>
+            <br>
+            <div class="inputbox">
+                <input type="text" name = "Bairro" id = "Bairro" class="inputUser" required>
+                <label for="Bairro" class="pizzaria">Bairro</label>
+            </div>
+            <br>
+            <div class="inputbox">
+                <input type="text" name = "rua" id = "rua" class="inputUser" required>
+                <label for="rua" class="pizzaria">Rua/Numero</label>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit" >
+            
+<script >form.addEventlistener('submit', (Event) =>{
+    window.alert('jonas')
+})</script>
+            </fieldset>
+        </form>
+    </div>
+</section>
+<script src="formulario.js"></script>
+</body>
+</html>
